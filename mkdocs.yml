@@ -1,4 +1,5 @@
 site_name: "ECO2 Guide Center"
+site_url: https://verycoldplay.github.io/eco2_guide_center/
 
 nav:
 - Welcome to ECO2 Guide Center: index.md

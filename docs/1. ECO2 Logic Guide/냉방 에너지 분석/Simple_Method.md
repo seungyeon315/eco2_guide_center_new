@@ -45,21 +45,6 @@ graph TD
     C --> D["<div>$$Q = 502,000 J$$</div>"]
 ```
 
-```mermaid
-graph TD
-    A["Heat Energy Calculation"] --> B["$Q = mc\Delta T$"]
-    B --> C["$Q = (2 \times 1000) \times 4.18 \times (80 - 20)$"]
-    C --> D["$Q = 502,000 J$"]
-```
-
-
-``` mermaid
-graph TD
-    A[Start] --> B{Is it working?}
-    B -->|Yes| C[Great!]
-    B -->|No| D[Try Again]
-```
-
 ``` mermaid
 graph TD
     A[Mermaid Examples] --> B[Flowcharts]
@@ -82,16 +67,6 @@ graph TD
     E --> E3[Inspiration]
 ```
 
-``` mermaid
-graph TD
-    A[Start] --> B{Known Values?}
-    B -->|Yes| C["Q = m &times; c &times; ΔT"]
-    B -->|No| D[Find Missing Value]
-
-    D --> E["m = Q / (c &times; ΔT)"]
-    D --> F["c = Q / (m &times; ΔT)"]
-    D --> G["ΔT = Q / (m &times; c)"]
-```
 
 ``` mermaid
 graph TD
@@ -116,63 +91,18 @@ graph TD
     H --> I[Update Mermaid Library]
 ```
 
-## 🔹 Example Calculation (with MathJax)
-
-``` mermaid
-graph TD
-    A[Heat Energy Calculation] --> B["Q = m × c × ΔT"]
-    B --> C["Q = (2 × 1000) × 4.18 × (80 - 20)"]
-    C --> D["Q = 502,000 J"]
-```
-
-``` mermaid
-graph TD
-    A[Start] --> B{Is it working?}
-    B -->|Yes| C["Q = m × c × ΔT"]
-    B -->|No| D["Try Again"]
-```
-
-``` mermaid
-graph TD
-    A["Heat Energy Calculation"] --> B["<svg xmlns='http://www.w3.org/2000/svg'><text x='0' y='15'>\( Q = mc\Delta T \)</text></svg>"]
-    B --> C["<svg xmlns='http://www.w3.org/2000/svg'><text x='0' y='15'>\( Q = (2 \times 1000) \times 4.18 \times (80 - 20) \)</text></svg>"]
-    C --> D["<svg xmlns='http://www.w3.org/2000/svg'><text x='0' y='15'>\( Q = 502,000 J \)</text></svg>"]
-```
-
 ```mermaid
 graph TD
-    A["Heat Energy Calculation"] --> B["Q = m &times; c &times; ΔT"]
-    B --> C["Q = (2 × 1000) × 4.18 × (80 - 20)"]
-    C --> D["Q = 502,000 J"]
-```
+    A["Heat Energy Calculation"] --> B["<div>$$Q = mc\Delta T$$</div>"]
+    B --> C["<div>$$Q = (2 \\times 1000) \\times 4.18 \\times (80 - 20)$$</div>"]
+    C --> D["<div>$$Q = 502,000 \\text{ J}$$</div>"]
 
-```mermaid
-graph TD
-    A["Heat Energy Calculation"] --> B["<div>\[
-        Q = mc\Delta T
-        \]</div>"]
-    B --> C["<div>\[
-        Q = (2 \times 1000) \times 4.18 \times (80 - 20)
-        \]</div>"]
-    C --> D["<div>\[
-        Q = 502,000 \ \text{J}
-        \]</div>"]
+    A --> E["<div>$$\\frac{a}{b} = c$$</div>"]
+    E --> F["<div>$$\\sum_{i=1}^{n} i = \\frac{n(n+1)}{2}$$</div>"]
 
-    A --> E["<div>\[
-        \frac{a}{b} = c
-        \]</div>"]
-    E --> F["<div>\[
-        \sum_{i=1}^{n} i = \frac{n(n+1)}{2}
-        \]</div>"]
+    A --> G["<div>$$E = mc^2$$</div>"]
+    G --> H["<div>$$\\alpha + \\beta = \\gamma$$</div>"]
 
-    A --> G["<div>\[
-        E = mc^2
-        \]</div>"]
-    G --> H["<div>\[
-        \alpha + \beta = \gamma
-        \]</div>"]
+    A --> I["<div>$$\\mathbf{A} = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$$</div>"]
 
-    A --> I["<div>\[
-        \mathbf{A} = \begin{bmatrix} a & b \\ c & d \end{bmatrix}
-        \]</div>"]
 ```

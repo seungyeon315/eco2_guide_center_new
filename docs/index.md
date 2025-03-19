@@ -1,6 +1,6 @@
 # Welcome to ECO2 Guide Center
 
-This is the starting point for the ECO2 energy analysis program.
+This is the starting point for the ECO2 energy analysis program.   
 Explore the following guides to learn more:
 
 - [ECO2 Logic Guide](ECO2_Logic_Guide/index.md)

@@ -63,6 +63,7 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js
   - https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js
   - assets/mermaid-init.js
+  - assets/cache-buster.js    # 👈 추가
 # https://unpkg.com/mermaid@10/dist/mermaid.min.js 
 
 markdown_extensions:

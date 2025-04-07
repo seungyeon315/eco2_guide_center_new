@@ -5,6 +5,8 @@ use_directory_urls: false
 nav:
 - Welcome to ECO2 Guide Center: index.md
 - 1. ECO2 Logic Guide:
+  - Hee1 (Equation list): 1. ECO2 Logic Guide/Hee1_Equation_List.md
+  - Hee2 (Two type of sample pages): 1. ECO2 Logic Guide/Hee2_Sample_Page.md
   - Overview: 1. ECO2 Logic Guide/index.md
   - ECO2 사용자 도움말:
       - ECO2 소개: 1. ECO2 Logic Guide/ECO2 사용자 도움말/ECO2_소개.md

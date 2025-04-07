@@ -87,13 +87,18 @@ WHY:
    
 #### Other matters and specific details will be updated during discussions as needed here:
 ```
-.
-.
-.
-.
-.
-.
-.
+Hee   
+- Create own repository  
+- Sample page design
+   
+Yeon   
+- Create own repository (mainly for technical test)
+- Sample page planning & design
+   
+Eun   
+- Identify how to collaborate with GitHub environment
+- Sample page planning & design
+
 
 ```
 

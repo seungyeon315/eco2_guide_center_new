@@ -90,18 +90,19 @@ WHY:
 Hee   
 - Create own repository (local project → Hee's GitHub repository, then all can see it)
 - Sample page design
-- Equation size control
+- Equation size control (done)
 - Report study
 
 Yeon   
 - Create own repository (mainly for technical test)
 - Sample page planning & design
-- Table embedding
-   
+- Table embedding++ (.csv + .xlsx rendering + utilizing)
+
 Eun   
 - Identify how to collaborate with GitHub environment
 - Sample page planning & design
 - Header fold/unfold control
+- Logic clarifying + Contents
 
 ```
 

@@ -88,17 +88,20 @@ WHY:
 #### Other matters and specific details will be updated during discussions as needed here:
 ```
 Hee   
-- Create own repository  
+- Create own repository (local project → Hee's GitHub repository, then all can see it)
 - Sample page design
-   
+- Equation size control
+- Report study
+
 Yeon   
 - Create own repository (mainly for technical test)
 - Sample page planning & design
+- Table embedding
    
 Eun   
 - Identify how to collaborate with GitHub environment
 - Sample page planning & design
-
+- Header fold/unfold control
 
 ```
 

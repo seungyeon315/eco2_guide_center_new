@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>습도 조건 테이블</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #f8f8f8;
+    }
+  </style>
+</head>
+<body>
+  <h2>겨울 조건의 hABL,Wi 값을 추출</h2>
+  <table id="csv-table"></table>
+  <p><strong>추출값 (겨울, 편차가 없는 습도요구):</strong>
+    <span id="extracted-value"></span></p>
+
+  <script>
+    fetch("humidity_data.csv")
+      .then(res => res.text())
+      .then(data => {
+        const rows = data.trim().split("\n").map(row => row.split(","));
+        const table = document.getElementById("csv-table");
+
+        // 표 그리기
+        rows.forEach((row, index) => {
+          const tr = document.createElement("tr");
+          row.forEach(cell => {
+            const el = document.createElement(index === 0 ? "th" : "td");
+            el.textContent = cell;
+            tr.appendChild(el);
+          });
+          table.appendChild(tr);
+        });
+
+        // 조건에 맞는 값 추출
+        const header = rows[0];
+        const 조건Index = header.indexOf("조건");
+        const 계절Index = header.indexOf("계절");
+        const 값Index = header.indexOf("값");
+
+        const targetRow = rows.find(r =>
+          r[계절Index] === "겨울" &&
+          r[조건Index] === "편차가 없는 습도요구"
+        );
+
+        const value = targetRow ? targetRow[값Index] : "찾을 수 없음";
+        document.getElementById("extracted-value").textContent = value;
+      });
+  </script>
+</body>
+</html>

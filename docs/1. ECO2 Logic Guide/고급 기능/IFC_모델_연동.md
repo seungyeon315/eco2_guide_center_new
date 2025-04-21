@@ -92,17 +92,25 @@ Hee
 - Sample page design
 - Equation size control (done)
 - Report study
+- Wording + Math
 
 Yeon   
 - Create own repository (mainly for technical test)
 - Sample page planning & design
-- Table embedding++ (.csv + .xlsx rendering + utilizing)
+- Table embedding++ (.csv + .xlsx rendering + utilizing) (V, with html+js) << try with Markdown
+- (detour) render current page on md page / Pop-up
+- Push !!! to Yeon or 
+- Mermaid arrow + Page link
+
 
 Eun   
 - Identify how to collaborate with GitHub environment
 - Sample page planning & design
-- Header fold/unfold control
+- Header fold/unfold control (NOT yet)
 - Logic clarifying + Contents
+- Variable carrying equations
+- Equation link with Mermaid
+
 
 ```
 

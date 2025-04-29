@@ -5,6 +5,7 @@ use_directory_urls: false
 nav:
 - Welcome to ECO2 Guide Center: index.md
 - 1. ECO2 Logic Guide:
+  - 기상데이터: 1. ECO2 Logic Guide/weather.html
   - Hee1 (Equation list): 1. ECO2 Logic Guide/Hee1_Equation_List.md
   - Hee2 (Two type of sample pages): 1. ECO2 Logic Guide/Hee2_Sample_Page.md
   - Overview: 1. ECO2 Logic Guide/index.md
@@ -13,7 +14,7 @@ nav:
       - 시작하기: 1. ECO2 Logic Guide/ECO2 사용자 도움말/시작하기.md
       - 데이터 입력: 1. ECO2 Logic Guide/ECO2 사용자 도움말/데이터_입력.md
       - 에너지 시뮬레이션: 1. ECO2 Logic Guide/ECO2 사용자 도움말/에너지_시뮬레이션.md
-  - 프로그램 평가 프로세스: 1. ECO2 Logic Guide/예시.md
+  - 프로그램 평가 프로세스: 1. ECO2 Logic Guide/프로그램_평가_프로세스.html
   - 냉방 에너지 분석:
       - 개요: 1. ECO2 Logic Guide/냉방 에너지 분석/개요.md
       - 냉방 부하 계산:
@@ -66,7 +67,7 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js
   - assets/mermaid-init.js
   - assets/cache-buster.js    # 👈 추가
-# https://unpkg.com/mermaid@10/dist/mermaid.min.js 
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js 
 
 markdown_extensions:
   - attr_list  # 이 확장 기능이 있어야 { .class }가 작동합니다.

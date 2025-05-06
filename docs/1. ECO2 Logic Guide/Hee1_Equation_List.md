@@ -19,6 +19,10 @@ ECO2 프로그램의 활용에 본 매뉴얼이 실질적인 도움이 되기를
 ## 🔹존의 난방부하
 
 
+\[ 
+Q_{h,b.mth} = d_{op} \left( Q_{sink,op} - \eta_{op} Q_{source,op} \right) + d_{we} \left( Q_{sink,we} - \eta_{we} Q_{source,we} \right) \tag{2-6}
+\] 
+
 $$
 Q_{h,b.mth} = d_{op} \left( Q_{sink,op} - \eta_{op} Q_{source,op} \right) + d_{we} \left( Q_{sink,we} - \eta_{we} Q_{source,we} \right) \tag{2-6}
 $$

@@ -44,10 +44,13 @@ nav:
       - IFC 모델 연동: 1. ECO2 Logic Guide/고급 기능/IFC_모델_연동.md
 
 - 2. ECO2 User Guide:
-  - Overview: ECO2_User_Guide/index.md
+  - Overview: '2. ECO2 User Guide/index.md'
 
 - 3. ECO2 Assessment Guide:
-  - Overview: ECO2_Assessment_Guide/index.md
+  - Overview: '3. ECO2 Assessment Guide/index.md'
+
+- 4. Reference:
+  - Logic Equations (수식 모음): '4. Reference/Logic_Equations.md'
 
 theme:
   name: material
@@ -67,8 +70,9 @@ extra:
 
 extra_javascript:
 #  - assets/mermaid-init.js  # mermaid 초기화 스크립트
-  - assets/polyfill.min.js  # 로컬 경로로 polyfill.js 파일
+  - assets/mathjax-config.js
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - assets/polyfill.min.js  # 로컬 경로로 polyfill.js 파일
   - https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js
   - https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js
   - assets/mermaid-init.js
@@ -88,6 +92,7 @@ markdown_extensions:
 
 plugins:
   - search
+  - macros
   - mermaid2:
       javascript: https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
 

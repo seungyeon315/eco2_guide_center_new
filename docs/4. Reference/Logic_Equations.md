@@ -4,4 +4,4 @@
 
 ---
 
-{{ include_equations("2", 1, 10) }}
+{{ include_equations("2", 1, 100) }}

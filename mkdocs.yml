@@ -72,12 +72,14 @@ extra_javascript:
 #  - assets/mermaid-init.js  # mermaid 초기화 스크립트
   - assets/mathjax-config.js
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - assets/mathjax-linker.js
   - assets/polyfill.min.js  # 로컬 경로로 polyfill.js 파일
   - https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js
   - https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js
   - assets/mermaid-init.js
   - assets/cache-buster.js    # 👈 추가
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js 
+  
 
 markdown_extensions:
   - attr_list  # 이 확장 기능이 있어야 { .class }가 작동합니다.

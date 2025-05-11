@@ -40,8 +40,8 @@ nav:
   - 자주 묻는 질문 (FAQ): 1. ECO2 Logic Guide/자주_묻는_질문.md
 
   - 고급 기능:
-      - 외피전개도 프로그램 연동: 1. ECO2 Logic Guide/고급 기능/외피전개도_프로그램_연동.md
-      - IFC 모델 연동: 1. ECO2 Logic Guide/고급 기능/IFC_모델_연동.md
+      - 외피전개도 프로그램 연동: 1. ECO2 Logic Guide/Advanced_Function/외피전개도_프로그램_연동.md
+      - IFC 모델 연동: '1. ECO2 Logic Guide/Advanced_Function/IFC_Model_Linking.md'
 
 - 2. ECO2 User Guide:
   - Overview: '2. ECO2 User Guide/index.md'

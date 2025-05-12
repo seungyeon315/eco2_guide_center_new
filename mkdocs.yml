@@ -57,6 +57,11 @@ theme:
   language: ko
   logo: assets/ECO2_icon.png
   features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.prefetch
+    - navigation.instant.preview
+
     - navigation.path
     - navigation.top
     - navigation.expand

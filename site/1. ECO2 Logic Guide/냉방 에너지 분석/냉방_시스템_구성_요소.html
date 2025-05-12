@@ -640,8 +640,8 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1 id="_1">냉방 시스템 구성 요소</h1>
-<h2 id="_2">🔹 냉방기기 설정 항목 및 계산 로직</h2>
+<h1 id="_1">냉방 시스템 구성 요소<a class="headerlink" href="#_1" title="Permanent link">¶</a></h1>
+<h2 id="_2">🔹 냉방기기 설정 항목 및 계산 로직<a class="headerlink" href="#_2" title="Permanent link">¶</a></h2>
 <p>냉방기기 설정은 냉방 부하 계산의 핵심 단계로, 다양한 기기의 특성과 제어 방식을 반영해 정확한 에너지 요구량을 산출하는 과정입니다. <br/>
 기본 정보부터 신재생에너지 연결, 압축식 및 흡수식 냉동기, 냉각탑 설정까지 폭넓은 항목이 포함되며, 각 요소의 설정에 따라 냉방 시스템의 효율성과 성능이 좌우됩니다.</p>
 <hr/>
@@ -650,7 +650,7 @@
   **Figure 2. ECO2 냉방기기 입력 화면**
 </center>
 <hr/>
-<h3 id="1"><strong>1. [일반데이터]</strong></h3>
+<h3 id="1"><strong>1. [일반데이터]</strong><a class="headerlink" href="#1" title="Permanent link">¶</a></h3>
 <p>냉방 부하 계산의 출발점이 되는 기본 정보입니다. <br/>
 냉동기의 총 용량은 냉방 부하 산출의 기준이 되며, 정격열성능지수(COP)는 냉동기의 효율을 계산하는 핵심 값으로 활용됩니다.</p>
 <ul>
@@ -663,7 +663,7 @@ $$
 COP = \frac{Q_{output}}{W_{input}}
 $$</p>
 <hr/>
-<h3 id="2"><strong>2. [신재생 및 열병합 시스템 연결여부]</strong></h3>
+<h3 id="2"><strong>2. [신재생 및 열병합 시스템 연결여부]</strong><a class="headerlink" href="#2" title="Permanent link">¶</a></h3>
 <p>신재생에너지 시스템이 연결된 경우, 이를 통해 발생하는 부하 감축 효과가 냉방 부하 계산에 반영됩니다. <br/>
 연결된 시스템의 유형과 적용 영역에 따라 냉방 부하가 조정되며, 해당 값을 보정하는 과정이 필요합니다.</p>
 <ul>
@@ -676,7 +676,7 @@ $$
 Q_{total} = Q_{cooling} - Q_{renewable}
 $$</p>
 <hr/>
-<h3 id="3"><strong>3. [압축식 냉동기]</strong></h3>
+<h3 id="3"><strong>3. [압축식 냉동기]</strong><a class="headerlink" href="#3" title="Permanent link">¶</a></h3>
 <p>압축식 냉동기는 냉방 부하를 현열 부하와 잠열 부하로 나눠 계산합니다. <br/>
 압축기 방식 및 제어 방식에 따라 실제 냉방 부하가 조정되며, 이 두 값의 합산으로 최종 부하가 결정됩니다.</p>
 <ul>
@@ -693,7 +693,7 @@ $$</p>
 <li><span class="arithmatex">\( Q_{latent} \)</span> : 잠열 부하 (습도 조절)  </li>
 </ul>
 <hr/>
-<h3 id="4"><strong>4. [흡수식 냉동기]</strong></h3>
+<h3 id="4"><strong>4. [흡수식 냉동기]</strong><a class="headerlink" href="#4" title="Permanent link">¶</a></h3>
 <p>흡수식 냉동기는 외부 열원을 통해 냉방 부하를 처리합니다. <br/>
 냉방 부하를 열원의 공급량과 효율로 환산하여 산출하며, 이때 효율이 냉방 부하 산출에 중요한 영향을 줍니다.</p>
 <ul>
@@ -706,7 +706,7 @@ $$
 Q_{absorption} = \frac{Q_{cooling}}{\text{효율}}
 $$</p>
 <hr/>
-<h3 id="5"><strong>5. [재냉각기 (냉각탑)]</strong></h3>
+<h3 id="5"><strong>5. [재냉각기 (냉각탑)]</strong><a class="headerlink" href="#5" title="Permanent link">¶</a></h3>
 <p>재냉각기는 냉동기에서 발생한 폐열을 외부로 방출하는 기기로, 유량과 입출구 온도의 차이에 따라 방출되는 열량이 결정됩니다. <br/>
 냉각탑의 설치 유무와 방식에 따라 냉방 부하 산출 값이 크게 달라집니다.</p>
 <ul>

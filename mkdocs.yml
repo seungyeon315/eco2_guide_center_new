@@ -61,7 +61,6 @@ theme:
     - navigation.instant.progress
     - navigation.instant.prefetch
     - navigation.instant.preview
-
     - navigation.path
     - navigation.top
     - navigation.expand
@@ -92,15 +91,23 @@ extra_javascript:
   
 
 markdown_extensions:
-  - attr_list  # 이 확장 기능이 있어야 { .class }가 작동합니다.
-  - md_in_html
-  - pymdownx.arithmatex:
+  - admonition              # ⚠️ 경고, 주의, 참고 박스
+  - attr_list               # 마크다운에 { .class } 같은 속성 부여
+  - def_list                # 정의 리스트 지원
+  - footnotes               # 각주 기능
+  - md_in_html              # HTML 내부에 마크다운 파싱
+  - tables                  # 마크다운 표
+  - toc:                    # 목차 (우측 고정 네비게이션)
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex:    # 수식 (MathJax/KaTeX)
       generic: true
-  - pymdownx.superfences:
+  - pymdownx.superfences:   # 코드블럭 향상, Mermaid 등 삽입 가능
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:mermaid2.fence_mermaid_custom
+
 
 plugins:
   - search

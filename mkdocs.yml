@@ -56,6 +56,11 @@ theme:
   name: material
   language: ko
   logo: assets/ECO2_icon.png
+  features:
+    - navigation.path
+    - navigation.top
+    - navigation.expand
+    - navigation.tracking
 
 extra_css:
   - assets/pretendard.css
@@ -94,8 +99,10 @@ markdown_extensions:
 
 plugins:
   - search
-  - macros
+  - macros:
+      module_name: macros
   - mermaid2:
       javascript: https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
+
 
 

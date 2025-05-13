@@ -8,9 +8,14 @@
 
 ---
 <center>
-  ![Energy Flow Diagram](../../images/그림1.jpg){ loading=lazy width=600 }  
-  **Figure 1. Energy Flow Diagram**
+  <img src="../../images/fig1.jpg" width="600" alt="Energy Flow Diagram">
+  <div><strong>Figure 1. Energy Flow Diagram</strong></div>
 </center>
+
+<!--만일 센터 정렬 안하려면 다음과 같이 간단히 표현 가능
+![Energy Flow Diagram](../../images/fig1.jpg)
+**Figure 1. Energy Flow Diagram** -->
+
 
 ## 🔹 Key Formula
 The core equation for heat energy calculation is:
@@ -72,7 +77,7 @@ graph TD
 graph TD
     A[Start] --> B{Who's Awesome?}
     B -->|전성희님| C[전성희님은 최고입니다]
-    C --> D[택시 후원 감사합니다]
+    C --> D["(택시 후원 감사합니다)"]
     B -->|You| E[You're Awesome Too!]
 
 ```
@@ -94,15 +99,14 @@ graph TD
 ```mermaid
 graph TD
     A["Heat Energy Calculation"] --> B["<div>$$Q = mc\Delta T$$</div>"]
-    B --> C["<div>$$Q = (2 \\times 1000) \\times 4.18 \\times (80 - 20)$$</div>"]
-    C --> D["<div>$$Q = 502,000 \\text{ J}$$</div>"]
+    B --> C["<div>$$Q = (2 \times 1000) \times 4.18 \times (80 - 20)$$</div>"]
+    C --> D["<div>$$Q = 502,000 \text{ J}$$</div>"]
 
-    A --> E["<div>$$\\frac{a}{b} = c$$</div>"]
-    E --> F["<div>$$\\sum_{i=1}^{n} i = \\frac{n(n+1)}{2}$$</div>"]
+    A --> E["<div>$$\frac{a}{b} = c$$</div>"]
+    E --> F["<div>$$\sum_{i=1}^{n} i = \frac{n(n+1)}{2}$$</div>"]
 
     A --> G["<div>$$E = mc^2$$</div>"]
-    G --> H["<div>$$\\alpha + \\beta = \\gamma$$</div>"]
-
-    A --> I["<div>$$\\mathbf{A} = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$$</div>"]
-
+    G --> H["<div>$$\alpha + \beta = \gamma$$</div>"]
 ```
+
+왜 안될꼬...?

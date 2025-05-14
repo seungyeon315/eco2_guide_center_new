@@ -5,6 +5,7 @@ use_directory_urls: false
 nav:
 - Welcome to ECO2 Guide Center: index.md
 - 1. ECO2 Logic Guide:
+  - 프로그램 평가 프로세스(md v3): 1. ECO2 Logic Guide/ECO2_diagram.md
   - 기상데이터: 1. ECO2 Logic Guide/weather.html
   - Hee1 (Equation list): 1. ECO2 Logic Guide/Hee1_Equation_List.md
   - Hee2 (Two type of sample pages): 1. ECO2 Logic Guide/Hee2_Sample_Page.md
@@ -14,7 +15,6 @@ nav:
       - 시작하기: 1. ECO2 Logic Guide/ECO2 사용자 도움말/시작하기.md
       - 데이터 입력: 1. ECO2 Logic Guide/ECO2 사용자 도움말/데이터_입력.md
       - 에너지 시뮬레이션: 1. ECO2 Logic Guide/ECO2 사용자 도움말/에너지_시뮬레이션.md
-  - 프로그램 평가 프로세스(md v3): 1. ECO2 Logic Guide/ECO2_diagram.md
   - Table: 1. ECO2 Logic Guide/table.md
   - Table2: 1. ECO2 Logic Guide/table2.md
   - Table3: 1. ECO2 Logic Guide/table3.md

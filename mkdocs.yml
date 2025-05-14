@@ -1,5 +1,5 @@
 site_name: "ECO2 Guide Center"
-site_url: https://verycoldplay.github.io/eco2_guide_center/
+site_url: https://verycoldplay.github.io/eco2_guide_center_yealone/
 use_directory_urls: false
 
 nav:
@@ -18,6 +18,8 @@ nav:
   - Table: 1. ECO2 Logic Guide/table.md
   - Table2: 1. ECO2 Logic Guide/table2.md
   - Table3: 1. ECO2 Logic Guide/table3.md
+  - 외부조건: 1. ECO2 Logic Guide/External_conditions.md
+  - 내부조건: 1. ECO2 Logic Guide/Internal_conditions.md
 
   - 냉방 에너지 분석:
       - 개요: 1. ECO2 Logic Guide/냉방 에너지 분석/개요.md

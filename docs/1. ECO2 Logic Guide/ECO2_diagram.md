@@ -15,7 +15,7 @@ flowchart LR
 
     subgraph Output["OUTPUT"]
         direction TB
-        NoteB["<div>$$Each\ zone's\ energy\ demand$$</div>"] --- D["Heating"]
+        NoteB["<div>$$Each\ zone's\ energy\ demand$$</div>"] --- D["Heating energy demand"]
         D --- E["Cooling energy demand"]
         E --- F["Hot water energy demand"]
         F --- G["Ventilating energy demand"]
@@ -25,15 +25,15 @@ flowchart LR
     C --> Output
 
     %% 링크 설정
-    click A "hvac.html" "_blank"
-    click B "weather.html" "_blank"
+    click A "/eco2_guide_center/1.%20ECO2%20Logic%20Guide/Standard_conditions.html" "_blank"
+    click B "/eco2_guide_center/1.%20ECO2%20Logic%20Guide/External_conditions.html" "_blank"
     click C "프로그램_평가_프로세스.html" "_blank"
     click D "hvac.html" "_blank"
-    click E "/eco2_guide_center/1.%20ECO2%20Logic%20Guide/냉방%20에너지%20분석/Simple_Method.html" "_blank"
-    click F "lighting.html" "_blank"
+    click E "/eco2_guide_center/1.%20ECO2%20Logic%20Guide/냉방%20에너지%20분석/Cooling_energy_demand.html" "_blank"
+    click F "/eco2_guide_center/1.%20ECO2%20Logic%20Guide/냉방%20에너지%20분석/Simple_Method.html" "_blank"
     click G "secondary.html" "_blank"
     click H "primary.html" "_blank"
-    click I "primary.html" "_blank"
+    click I "/eco2_guide_center/1.%20ECO2%20Logic%20Guide/Internal_conditions.html" "_blank"
 
     %% 스타일 설정
     style A fill:#d5f4d4,stroke:#888,stroke-width:1px

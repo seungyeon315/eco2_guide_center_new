@@ -83,7 +83,45 @@ end
 ```
 
 ```mermaid
-flowchart LR
+graph TD
+    %% 입력 및 출력 구분 색상은 주석으로 설명
+    %% input: 회색, output: 진한회색, 계산값 input: 노란색, 표준값 input: 파란색, 기후/용도 데이터: 연두/하늘
+
+    %% 주요 흐름
+    A["$$Q_c,f$$<br/>(냉방 에너지소요량)"] --- B["$$Q_{c,outg}$$<br/>(냉방 에너지공급량)"]
+    A --- C["SEER"]
+    C --- D["EER"]
+    C --- E["$$f_{C,PL,k}$$"]
+    C --- F["$$f_{hr,PL}$$"]
+    C --- G["$$f_{hr,fc}$$"]
+    C --- H["$$f_{c,mult}$$"]
+
+    D --- I["$$EER_{Prod}$$"]
+
+    %% 기후 및 용도 데이터 입력
+    D --- J["$$T_{nutz}$$"]
+    D --- K["$$T_{ruck}$$"]
+    D --- L["$$T_{nutz,Prod}$$"]
+    D --- M["$$T_{ruck,Prod}$$"]
+    D --- N["$$\Delta T_{kond}$$"]
+    D --- O["$$\Delta T_{verd}$$"]
+
+    %% 레이블 스타일 (선택적)
+    classDef input fill:#f97f7f;
+    classDef calcInput fill:#ffe08c;
+    classDef output fill:#aaaaaa;
+    classDef standardInput fill:#cce0ff;
+    classDef climateData fill:#b4f0c3;
+
+    class I input;
+    class B,C,D,F,J calcInput;
+    class E,G,H,L,M,N,O standardInput
+    class A output;
+    class K climateData;
+```
+
+```mermaid
+flowchart TD
     %% 입력 및 출력 구분 색상은 주석으로 설명
     %% input: 회색, output: 진한회색, 계산값 input: 노란색, 표준값 input: 파란색, 기후/용도 데이터: 연두/하늘
 

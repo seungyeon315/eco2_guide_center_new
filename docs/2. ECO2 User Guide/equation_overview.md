@@ -22,3 +22,13 @@ flowchart TD
     click D "heat_gain.html" "_blank"
     click E "Standard_conditions.html" "_blank"
 ```
+
+
+---
+
+```mermaid
+flowchart TD
+    A["$$Q_{sink} = Q_T + Q_V + Q_{I,sink} + Q_S  (2-11)$$"]
+
+    click A "equation_page_list.html?eq=2-11-11" "_self"
+```

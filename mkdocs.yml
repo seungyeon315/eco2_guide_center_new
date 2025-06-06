@@ -97,6 +97,8 @@ extra_javascript:
   - assets/cache-buster.js    # 👈 추가
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js 
   - assets/equation_search.js
+  - assets/equation_modal.js
+  - assets/equation_page_loader.js
   
 
 markdown_extensions:

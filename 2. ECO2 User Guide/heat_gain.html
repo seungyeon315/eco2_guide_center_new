@@ -923,6 +923,27 @@ $$
         <span class="equation-link" data-equation-id="2-11-11">$$Q_{sink} = Q_T + Q_V + Q_{I,sink} + Q_S$$</span>
 </div>
 <hr/>
+<h1 id="equation-diagram">Equation Diagram<a class="headerlink" href="#equation-diagram" title="Permanent link">¶</a></h1>
+<h2 id="temporarily-cooling-energy-demand-only">🔹 (Temporarily) Cooling Energy Demand Only<a class="headerlink" href="#temporarily-cooling-energy-demand-only" title="Permanent link">¶</a></h2>
+<hr/>
+<pre class="mermaid"><code>flowchart TD
+    A["<div>$$Q_{h,b,mth} = d_{op}(1 - η_{op})Q_{source,op} + d_{we}(1 - η_{we})Q_{source,we}  (2-7)$$</div>"]
+    B["<div>$$Q_{h,c} = (1 - η)Q_{source}  (2-1)$$</div>"]
+    C["<div>$$γ = Q_{source} / Q_{sink}  (2-21)$$</div>"]
+    D["<div>$$Q_{sink} = Q_T + Q_V + Q_{I,sink} + Q_S  (2-11)$$</div>"]
+    E["<div>$$Q_{source} = Q_S + Q_T + Q_V + Q_{I,source}  (2-16)$$</div>"]
+
+    A --&gt; B
+    B --&gt; C
+    C --&gt; D
+    D --&gt; E
+
+    click A "/eco2_guide_center_yealone/1.%20ECO2%20Logic%20Guide/Standard_conditions.html" "_blank"
+    click B "/eco2_guide_center_yealone/1.%20ECO2%20Logic%20Guide/Standard_conditions.html" "_blank"
+    click C "/eco2_guide_center_yealone/1.%20ECO2%20Logic%20Guide/Standard_conditions.html" "_blank"
+    click D "/eco2_guide_center_yealone/2.%20ECO2%20User%20Guide/heat_gain.html" "_blank"
+    click E "/eco2_guide_center_yealone/1.%20ECO2%20Logic%20Guide/Standard_conditions.html" "_blank"
+</code></pre>
 </article>
 </div>
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
@@ -963,5 +984,7 @@ $$
 <script src="../assets/cache-buster.js"></script>
 <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
 <script src="../assets/equation_search.js"></script>
-</body>
+<script>window.mermaidConfig = {default: {
+    startOnLoad: false
+}};</script></body>
 </html>

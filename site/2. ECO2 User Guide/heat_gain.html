@@ -6,9 +6,11 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <link href="https://seungyeon315.github.io/eco2_guide_center_new/2.%20ECO2%20User%20Guide/heat_gain.html" rel="canonical"/>
+<link href="00_main_page.html" rel="prev"/>
+<link href="01_building_info.html" rel="next"/>
 <link href="../assets/images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.6.1, mkdocs-material-9.6.12" name="generator"/>
-<title>열손실 및 열획득 (Heat Loss and Heat Gain) - ECO2 Guide Center</title>
+<title>Heat Gain and Loss - ECO2 Guide Center</title>
 <link href="../assets/stylesheets/main.2afb09e1.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
@@ -46,7 +48,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              열손실 및 열획득 (Heat Loss and Heat Gain)
+              Heat Gain and Loss
             
           </span>
 </div>
@@ -439,8 +441,8 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_3" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
 <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
 <span class="md-ellipsis">
     2. ECO2 User Guide
@@ -448,7 +450,7 @@
   </span>
 <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<nav aria-expanded="true" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_3">
 <span class="md-nav__icon md-icon"></span>
             2. ECO2 User Guide
@@ -469,6 +471,62 @@
     
   </span>
 </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    Heat Gain and Loss
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="heat_gain.html">
+<span class="md-ellipsis">
+    Heat Gain and Loss
+    
+  </span>
+</a>
+<nav aria-label="목차" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      목차
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_1">
+<span class="md-ellipsis">
+      열손실
+    </span>
+</a>
+<nav aria-label="열손실" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+<span class="md-ellipsis">
+      전도 열손실
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_3">
+<span class="md-ellipsis">
+      환기에 의한 열손실
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_4">
+<span class="md-ellipsis">
+      열획득
+    </span>
+</a>
+</li>
+</ul>
+</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="01_building_info.html">
@@ -641,6 +699,31 @@
       열손실
     </span>
 </a>
+<nav aria-label="열손실" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+<span class="md-ellipsis">
+      전도 열손실
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_3">
+<span class="md-ellipsis">
+      환기에 의한 열손실
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_4">
+<span class="md-ellipsis">
+      열획득
+    </span>
+</a>
 </li>
 </ul>
 </nav>
@@ -661,56 +744,186 @@
 </ul>
 <h2 id="_1">열손실<a class="headerlink" href="#_1" title="Permanent link">¶</a></h2>
 <p>전도와 자연환기에 의한 열손실, 기계환기에 의한 냉열유입, 존 내부의 냉열원 그리고 복사손실에 의한 존의 총 열손실이 결정됩니다. </p>
-<body>
+<div div="" style="
+  background-color: #f0f8ff;
+  border-left: 5px solid #2b6777;
+  padding: 10px 20px;
+  margin-top: 20px;
+">
+<strong>열손실</strong><br/>
+        열손실 계산식은 다음과 같습니다:
+        $$
+Q_{sink} = Q_T + Q_V + Q_{I,sink} + Q_S \tag{2-11}
+$$
+
+
+</div>
+<hr/>
+<h3 id="_2">전도 열손실<a class="headerlink" href="#_2" title="Permanent link">¶</a></h3>
+<div style="display: flex; gap: 2em; align-items: stretch;">
+<!-- 왼쪽 단: 설명 -->
+<div style="
+    flex: 1;
+    background: #f0f8ff;
+    border: 1px solid #aad4ff;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  ">
+<h3 style="margin-top: 0;"><strong>전도 열손실</strong></h3>
+    전도 열손실은 벽체, 지붕, 바닥 등 외피를 통해 발생하는 열의 손실을 의미합니다.  
+    아래 수식은 전체 전도 손실을 계산하는 식입니다.
+
+    $$ Q_T = \sum_j H_{T,j} \cdot (\vartheta_i - \vartheta_j)t,\quad \vartheta_i &gt; \vartheta_j $$
+
+    <div style="margin-top: 10px;">
+      Open in a New Tab ver. &amp; Equation No. (manually)
+
+<a class="equation-link" href="/eco2_guide_center/1.%20ECO2%20Logic%20Guide/Hee1_Equation_List.html" rel="noopener noreferrer" target="_blank">
+  \(Q_{h,b.mth} = d_{op} \left( Q_{sink,op} - \eta_{op} Q_{source,op} \right) + d_{we} \left( Q_{sink,we} - \eta_{we} Q_{source,we} \right) \) <span class="eq-number">(2-6)</span>
+</a>
+---
+
+
+    </div>
+<strong>희에게 적절한 다이어그램 혹은 그림 추가 요청</strong>
+</div>
+<!-- 오른쪽 단: 세부 전도 항목 -->
+<div style="
+    flex: 1;
+    background: #fef9f1;
+    border: 1px solid #f5d7a6;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.05em;
+  ">
 <details>
-<summary>열손실</summary>
-<p>
-            열손실 계산식은 다음과 같습니다:
-        </p>
-<p style="margin-left:20px;">
-<code>Q_{sink} = Q_T + Q_V + Q_{I,sink} + Q_S</code>
-</p>
-</details>
-<body>
-<div style="display: flex; gap: 2em;">
-<!-- 왼쪽 단: 열손실 (기본 열림 상태) -->
-<div style="flex: 1;">
-<details open="">
-<summary><strong>열손실</strong></summary>
-<p>\( Q_{sink} = Q_T + Q_V + Q_{I,sink} + Q_S \)</p>
+<summary><strong>외기에 의한 벽체를 통한 전도</strong></summary>
+      $$ Q_{T,e} = H_{T,D} (\vartheta_i - \vartheta_e)t $$
+    </details>
+<details>
+<strong>열관류율 합산 (외기)</strong>
+      $$ H_{T,D} = \sum(U_j A_j) + \Delta U_{WB} \sum A_j $$
+      $$ \Delta U_{WB}: \text{외단열 } 0.1, \quad \text{내단열 } 0.15 $$
+    </details>
+<details>
+<summary><strong>비난방존의 벽체를 통한 전도</strong></summary>
+      $$ Q_{T,u} = H_{T,iu} (\vartheta_i - \vartheta_u)t $$
+    </details>
+<details>
+<strong>열관류율 합산 (비난방존)</strong>
+      $$ H_{T,iu} = \sum(U_j A_j) $$
+    </details>
+<details>
+<summary><strong>이웃 난방/냉방 존의 벽체를 통한 전도</strong></summary>
+      $$ Q_{T,z} = H_{T,iz} (\vartheta_i - \vartheta_z)t $$
+    </details>
+<details>
+<strong>열관류율 합산 (이웃 존)</strong>
+      $$ H_{T,iz} = \sum(U_j A_j) $$
+    </details>
+<details>
+<summary><strong>땅으로의 전도</strong></summary>
+      $$ Q_{T,s} = H_{T,s} (\vartheta_i - \vartheta_e)t $$
+    </details>
+<details>
+<strong>열관류율 (지면)</strong>
+      $$ H_{T,s}: \text{DIN EN ISO 13370 에 따라 산정} $$
+    </details>
+</div>
+</div>
+<hr/>
+<h3 id="_3">환기에 의한 열손실<a class="headerlink" href="#_3" title="Permanent link">¶</a></h3>
+<div style="display: flex; gap: 2em; align-items: stretch;">
+<!-- 왼쪽 단: 메인 환기 열손실 설명 -->
+<div style="
+    flex: 1;
+    background: #f0f8ff;
+    border: 1px solid #aad4ff;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  ">
+<h3 style="margin-top: 0;"><strong>환기에 의한 열손실</strong></h3>
+    환기에 의한 열손실은 자연 침기, 창 개방, 기계 환기, 인접 공간을 통한 공기 흐름으로 인해 발생하는 에너지 손실입니다.
+      $$ Q_V = \sum_k H_{V,k} (\vartheta_i - \vartheta_k)t,\quad \vartheta_i &gt; \vartheta_k $$
+    <div style="margin-top: 10px;">
       $$
 Q_{sink} = Q_T + Q_V + Q_{I,sink} + Q_S \tag{2-11}
 $$
 
 
+    </div>
+<strong>희에게 적절한 다이어그램 혹은 그림 추가 요청</strong>
+</div>
+<!-- 오른쪽 단: 환기 항목별 세부 폴딩 설명 -->
+<div style="
+    flex: 1;
+    background: #fef9f1;
+    border: 1px solid #f5d7a6;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.05em;
+  ">
+<details>
+<summary><strong>외기 침기에 의한 열손실</strong></summary>
+      $$ Q_{V,inf} = H_{V,inf} (\vartheta_i - \vartheta_e)t,\quad \vartheta_i &gt; \vartheta_e  $$
+    </details>
+<details>
+<p><strong>실내온도 설정 식</strong></p>
+      $$\vartheta_i = \vartheta_{i,h} \; \text{oder} \; \vartheta_{i,c} \quad \text{(난방 또는 냉방 분석–실내온도)}$$
+      $$\vartheta_{i,h} = \vartheta_{i,h,soll} \quad \text{기본 21°C}$$
+      <p><strong>야간감소 및 주말감소 (난방 시)</strong></p>
+      $$\vartheta_{i,h} = \vartheta_{i,h,soll} - f_{tb} (\vartheta_{i,h,soll} - \vartheta_e)$$
+      $$\vartheta_{i} = \vartheta_{i,NA} - f_{tb} (\vartheta_{i,NA} - \vartheta_e)$$
+      <p><strong>공간적 제한 및 시각적 제한</strong></p>
+      $$\vartheta_{i,h} = \vartheta_{i,h,soll} - f_{tb} (\vartheta_{i,h,soll} - \vartheta_e)$$
+      $$\vartheta_{i} = \vartheta_{i,NA} - f_{tb} (\vartheta_{i,NA} - \vartheta_e)$$
+      <p><strong>냉방 시 실내온도</strong></p>
+      $$\vartheta_{i,c} = \vartheta_{i,c,soll} - 2K \quad \text{24°C - 2K = 22°C}$$
+    </details>
+<details>
+<summary><strong>창문환기에 의한 열손실</strong></summary>
+      $$ Q_{V,win} = H_{V,win} (\vartheta_i - \vartheta_e)t,\quad \vartheta_i &gt; \vartheta_e $$
+    </details>
+<details>
+<summary><strong>기계환기에 의한 냉열유입</strong></summary>
+      $$ Q_{V,mech} = H_{V,mech} (\vartheta_i - \vartheta_{V,mech})t,\quad \vartheta_i &gt; \vartheta_{V,mech} $$
+    </details>
+<details>
+<p><strong>기계환기 조건</strong></p>
+      $$\vartheta_{V,mech} = \vartheta_e \quad \text{공조처리 없는 경우}$$
+      $$\vartheta_{V,mech} = \vartheta_e + \eta_{V,mech} \cdot (\vartheta_i - \vartheta_e) \quad \text{비제어적 열교환}$$
+      $$\vartheta_{V,mech} = \vartheta_{V,mech,RLT} \quad \text{공조처리된 급기온도}$$
+    </details>
+<details>
+<summary><strong>다른 존으로부터 유입된 공기에 의한 열손실</strong></summary>
+      $$ Q_{V,z} = H_{V,z} (\vartheta_i - \vartheta_z)t,\quad \vartheta_i &gt; \vartheta_z $$
     </details>
 </div>
-<!-- 오른쪽 단: 여러 개의 접힌 details -->
-<div style="flex: 1; display: flex; flex-direction: column; gap: 1em;">
-<details>
-<summary><strong>전도 열손실</strong></summary>
-<p>\( Q_{source} = Q_{solar} + Q_{internal} + Q_{gain} \)</p>
-      $$
-Q_{sink} = Q_T + Q_V + Q_{I,sink} + Q_S \tag{2-11}
-$$
-
-
-    </details>
-<details>
-<summary><strong>외기에 접한 벽체를 통한 전도</strong></summary>
-<p>각 열량 항목은 보정계수를 곱하여 평가합니다.</p>
-<ul>
-<li>계수 1</li>
-<li>계수 2</li>
-</ul>
-</details>
-<details>
-<summary><strong>🔹 기타 조건</strong></summary>
-<p>기타 조건 설명 또는 표 삽입 가능.</p>
-</details>
 </div>
+<h2 id="_4">열획득<a class="headerlink" href="#_4" title="Permanent link">¶</a></h2>
+<p>태양열입사, 전도에 의한 열 유입, 자연환기와 기계환기에 의한 열 유입, 내부 발열 획득에 의해 존의 전체 열획득이 정해집니다.</p>
+<div div="" style="
+  background-color: #f0f8ff;
+  border-left: 5px solid #2b6777;
+  padding: 10px 20px;
+  margin-top: 20px;
+">
+<strong>열획득</strong><br/>
+        열획득 계산식은 다음과 같습니다:
+        <span class="equation-link" data-equation-id="2-11">$$Q_{sink} = Q_T + Q_V + Q_{I,sink} + Q_S$$</span>
 </div>
-</body></body></article>
+<hr/>
+</article>
 </div>
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
 </div>
@@ -749,5 +962,6 @@ $$
 <script src="../assets/mermaid-init.js"></script>
 <script src="../assets/cache-buster.js"></script>
 <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
+<script src="../assets/equation_search.js"></script>
 </body>
 </html>

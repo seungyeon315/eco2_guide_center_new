@@ -95,6 +95,7 @@ extra_javascript:
   - assets/mermaid-init.js
   - assets/cache-buster.js    # 👈 추가
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js 
+  - assets/equation_search.js
   
 
 markdown_extensions:
@@ -122,6 +123,5 @@ plugins:
       module_name: macros
   - mermaid2:
       javascript: https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
-
 
 
